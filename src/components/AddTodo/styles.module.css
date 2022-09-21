@@ -1,0 +1,27 @@
+.form {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
+  height: 48px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  border: solid #3C3C3C;
+  font-size: 18px;
+}
+
+.button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #3C3C3C;
+
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #505050;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.check {
+  padding: 10px;
+}
+
+.trash {
+  padding: 10px;
+  margin-left: auto;
+}
